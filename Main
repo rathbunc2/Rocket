@@ -1,0 +1,43 @@
+#Chandler Rathbun, 11/3/23
+#rocket v.3
+#School
+#MIT License
+#variables
+bksl="\\" 
+div="+=*=*=*=*=*=*+" #middle section that repeat
+cone1=("     /**\\") #smallest rocket cone that repeats 
+cone2=("    //**"+(bksl*2)) #small rocket cone that repeats
+cone3=("   ///**"+(bksl*3)) #medium rocket cone that repeats
+cone4=("  ////**"+(bksl*4)) #big rocket cone that repeats
+cone5=(" /////**"+(bksl*5)) #biggest rocket cone that repeats
+
+#function declarations
+def cone():
+    print(cone1)
+    print(cone2) 
+    print(cone3)
+    print(cone4)
+    print(cone5)
+
+def rocket1():
+    print("|../\\..../\\..|")
+    print("|./\\/\\../\\/\\.|")
+    print("|/\\/\\/\\/\\/\\/\\|")
+
+def rocket2():
+    print("|\\/\\/\\/\\/\\/\\/|")
+    print("|.\\/\\/..\\/\\/.|")
+    print("|..\\/....\\/..|")
+
+
+#code
+
+cone()
+print(div)
+rocket1()
+rocket2()
+print(div)
+rocket2()
+rocket1()
+print(div)
+cone()
